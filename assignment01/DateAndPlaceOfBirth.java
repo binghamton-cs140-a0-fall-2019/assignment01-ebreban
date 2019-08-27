@@ -1,4 +1,8 @@
 package assignment01;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.time.LocalDate;
 /**
  * Class to store a data and place of birth.
@@ -20,8 +24,8 @@ public class DateAndPlaceOfBirth {
 	 * @param countryBirth the country where the birth took place
 	 */
 	public DateAndPlaceOfBirth(
-			int yearOfBirth, 
-			int monthOfBirth, 
+			int yearOfBirth,
+			int monthOfBirth,
 			int dayOfBirth,
 			String cityOfBirth,
 			String stateOfBirth,
@@ -39,8 +43,8 @@ public class DateAndPlaceOfBirth {
 	 * @param countryBirth the country where the birth took place
 	 */
 	public DateAndPlaceOfBirth(
-			int yearOfBirth, 
-			int monthOfBirth, 
+			int yearOfBirth,
+			int monthOfBirth,
 			int dayOfBirth,
 			String cityOfBirth,
 			String countryBirth) {
@@ -63,7 +67,7 @@ public class DateAndPlaceOfBirth {
 	public String getPlaceOfBirth() {
 		return placeOfBirth;
 	}
-	
+
 	/**
 	 * The method olderThan returns true if the date of birth of
 	 * this DateAndPlaceOfBirth is before the date of birth of
@@ -107,9 +111,18 @@ public class DateAndPlaceOfBirth {
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
   //TODO complete this method
-  }
+		int x = dateOfBirth.getMonthValue();
+		int y =  other.dateOfBirth.getMonthValue();
+		int a = dateOfBirth.getDayOfMonth();
+		int b = other.dateOfBirth.getDayOfMonth();
+		if(x==y  & a==b){
+			return true;
+		}else{
+			return false;
+		}
+	}
 	@Override
 	public String toString() {
-		return "Date and place of birth: " + dateOfBirth + ", " + placeOfBirth;
-	}	
+		return ("Date and place of birth: " + dateOfBirth + ", " + placeOfBirth);
+	}
 }
