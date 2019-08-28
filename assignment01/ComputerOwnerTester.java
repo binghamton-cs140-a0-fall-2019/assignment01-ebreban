@@ -20,7 +20,7 @@ public class ComputerOwnerTester {
 		tt.addComputer(c2);
 		tt.addComputer(c3);
 		tt.addComputer(c4);
-		tt.removeComputer(2);
+		tt.removeComputer(0);
 		tt.removeComputer(1);
 		System.out.println(tt);
 

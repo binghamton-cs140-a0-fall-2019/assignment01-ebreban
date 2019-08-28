@@ -28,11 +28,11 @@ public class SimpleDate {
 		return returnValue;
 	}
 	public boolean before(SimpleDate other){
-		if(other.getYear() < year){
+		if(other.getYear() < this.year){
 			return false;
-		}if(other.getMonth() < month){
+		}if(other.getMonth() < this.month){
 			return false;
-		}if(other.getDay() < day){
+		}if(other.getDay() < this.day){
 			return false;
 		}else{
 			return true;

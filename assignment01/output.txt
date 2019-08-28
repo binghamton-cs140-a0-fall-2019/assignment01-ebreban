@@ -1,0 +1,55 @@
+
+TESTS FOR Computer.java:
+dell, na, 8GB Memory, 400GB Solid State Drive, Price: $200.00
+dell, na, 8GB Memory, 1.1TB Hard Drive, Price: $200.00
+dell, na, 8GB Memory, 200GB Solid State Drive, Price: $200.00
+dell, na, 8GB Memory, 1.2TB Hard Drive, Price: $200.00
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2000-01-01, hewlett, NY, USA
+Date and place of birth: 2000-01-01, hewlett, NY, USA
+Date and place of birth: 2001-01-01, hewlett, NY, USA
+Date and place of birth: 2005-12-12, munich, Germany
+Date and place of birth: 2003-11-09, paris, france
+true
+true
+false
+false
+true
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+
+TESTS FOR USAddressTester.java:
+4 maple  Street
+apt 4b
+NY, NY 11561
+4 maple  Street
+NY, NY 11561
+
+
+TESTS FOR PersonTester.java:
+pete davidson (023-34-5367)
+Date and place of birth: 2001-01-01, hewlett, NY, USA
+4 maple  Street
+apt 4b
+NY, NY 11561
+
+TESTS FOR ComputerOwnerTester.java:
+Computer List, Owner: steve davids (023-34-5367)
+Date and place of birth: 1999-01-01, hewlett, NY, USA
+8 oak  Street
+apt 4b
+NY, NY 11561
+Computers: [apple, na, 8GB Memory, 400GB Solid State Drive, Price: $200.00 , apple, na, 8GB Memory, 1.2TB Hard Drive, Price: $200.00 ]
+
+TESTS FOR SimpleDateTester.java:
+true
