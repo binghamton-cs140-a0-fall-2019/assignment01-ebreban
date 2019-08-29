@@ -53,3 +53,11 @@ Computers: [apple, na, 8GB Memory, 400GB Solid State Drive, Price: $200.00 , app
 
 TESTS FOR SimpleDateTester.java:
 true
+
+TESTS FOR ComputerOwnerTester.java:
+Computer List, Owner: steve davids (023-34-5367)
+Date and place of birth: 1999-01-01, hewlett, NY, USA
+8 oak  Street
+apt 4b
+NY, NY 11561
+Computers: [apple, na, 8GB Memory, 400GB Solid State Drive, Price: $200.00 , apple, na, 8GB Memory, 1.2TB Hard Drive, Price: $200.00 ]
